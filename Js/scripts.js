@@ -145,3 +145,75 @@ else {
 }
 
 
+// Section 2
+
+// Declaring Variables
+// Printing out 0-10
+for (let a = 0; a <= 10; a++) {
+    console.log(a);
+    
+}
+
+// Declaring Variables B
+// Printing  out 10-400
+for (let b = 0; b <= 400; b++) {
+    console.log(b);
+    
+}
+
+
+// Declaring Variables B
+// Printing  out every third  number from 12-4000
+for (let c = 12; c <= 4000; c += 3) {
+    console.log(c);
+    
+} 
+
+// Declaring Variables C
+// Printing  out every even  number from 1-100
+for (let d = 0; d <= 100; d++) {
+    if (d % 2 !== 0){
+    console.log(d);
+    }
+    else {
+        console.log(d + " is an even number");
+    }
+
+
+}
+
+// Declaring Variables D
+// Printing  out every third and fifth number from 1-100
+for (let e = 0; e <= 100; e++) {
+    if (e % 3 == 0 && e % 5 == 0) {
+    console.log('I found a '+ e + '. Thrid and fifth Wheel!');
+    }
+    else if (e % 3 == 0) {
+        console.log('I found a '+ e + '. Three is a crowd!');
+
+    }
+    else if ( e % 5 == 0) {
+        console.log('I found a '+ e + '. High Five!');
+    }
+
+
+}
+
+// Declaring Variables E
+// Banking Account
+
+let interest = 0;
+let bankacct = 0
+let bankacct1 = 0;
+let z = 0;
+
+while (z < 100) {
+
+    interest++;
+    bankacct = bankacct + interest ;
+    z++;
+    bankacct1 = bankacct * 2;
+    
+}
+console.log(bankacct);
+console.log(bankacct1);

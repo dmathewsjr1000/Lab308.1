@@ -217,3 +217,85 @@ while (z < 100) {
 }
 console.log(bankacct);
 console.log(bankacct1);
+
+
+// Arrays Section Section 3A
+
+// What are the things in an array called?
+//  Elements
+// Do Arrays guarantee those things will be in order?
+//  No
+// What real-life thing could you model with an array?
+// Table or list 
+// Section 3B Declaring Variables
+
+const quotes = ['Early bird catches the worm','Give a man a fish he will eat for a day, Teach a man to fish and he eat for life.','Always be ready so you never have to get ready.'];
+
+
+// Section 3C
+
+// Declaring Variables
+
+const randomThings = [1, 10, "Hello", true];
+
+// Accessing 1st Element
+console.log(randomThings); 
+console.log(randomThings[0]); 
+
+// Changing data
+randomThings[2] = 'World';
+console.log(randomThings[2]); 
+console.log(randomThings);
+// const removeThings = randomThings.splice(2, 1, 'Hello World');
+// console.log(removeThings);
+// console.log(randomThings);
+
+// Section 3D
+
+// Declaring Variables
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// Accessing 3rd Element
+console.log(ourClass); 
+console.log(ourClass[2]);
+
+// Adding and removing data
+
+const removeThings1 = ourClass.splice(4, 1, 'Octocat','Cloud City');
+// ourClass.push('Cloud City'); also adds at the end of array
+console.log(removeThings1);
+console.log(ourClass);
+
+// Section 3E
+
+// Declaring Variables
+const myArray = [5, 10, 500, 20];
+
+// Adding to end of the array
+
+myArray.push('Aegon','Dragonfire');
+console.log(myArray);
+
+// Removing from the front
+myArray.shift();
+console.log(myArray);
+// Adding to the front 
+myArray.unshift('Bob Marley');
+console.log(myArray);
+
+// Removing any string from any where
+
+const removeThings2 = myArray.splice(4,1);
+console.log(removeThings2);
+console.log(myArray);
+
+// Reversing Arrays
+
+myArray.reverse();
+console.log(myArray);
+// Yes reverse the method mutates the array
+// A change in the original code or data.
+// Yes a reference to same array 
+
+// Section 3H
